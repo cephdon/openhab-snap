@@ -55,7 +55,7 @@ apps:
 
 parts:
     openhab:
-        source: https://bintray.com/openhab/mvn/download_file?file_path=org%2Fopenhab%2Fdistro%2Fopenhab-online%2F2.0.0.b4%2Fopenhab-online-2.0.0.b4.tar.gz
+        source: https://openhab.ci.cloudbees.com/job/openHAB-Distribution/lastSuccessfulBuild/artifact/distributions/openhab/target/openhab-2.0.0-SNAPSHOT.tar.gz
         plugin: openhab
         stage:
           - -start*
