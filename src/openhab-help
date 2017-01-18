@@ -2,7 +2,7 @@
 
 source $SNAP/bin/config &>/dev/null
 
-echo -e "Welcone to brave new snappy world\n"
+echo -e "Welcome to brave new snappy world\n"
 echo -e "Make sure you have connected all interfaces, check more by calling $ snap interfaces"
 echo -e "Or use helper script $ /snap/openhab/current/bin/connect-interfaces\n"
 # parse config file for supported settings keys
